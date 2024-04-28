@@ -1,0 +1,10 @@
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\bin\Debug\BDD-AirDolomieu.dacpac
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\bin\Debug\BDD_AirDolomieu.dll
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\bin\Debug\BDD_AirDolomieu.pdb
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\obj\Debug\BDD-AirDolomieu.sqlproj.AssemblyReference.cache
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\obj\Debug\BDD_AirDolomieu.dll
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\obj\Debug\BDD_AirDolomieu.pdb
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\obj\Debug\Model.xml
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\obj\Debug\refactor.xml
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\obj\Debug\postdeploy.sql
+C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\obj\Debug\predeploy.sql

@@ -1,0 +1,87 @@
+12/04/2024 11:23:14	Ce journal contient des informations sur l'importation du schéma dans le projet 'BDD-AirDolomieu' sur l'ordinateur 'TPN50' par l'utilisateur 'AMI'.
+12/04/2024 11:23:14	L'importation du schéma de base de données a commencé.
+12/04/2024 11:23:27	Collecte des informations d'identification à la base de données
+12/04/2024 11:23:27	Collecte des options de la base de données
+12/04/2024 11:23:27	Collecte de l'option de configuration étendue à la base de données générique
+12/04/2024 11:23:27	Collecte des utilisateurs
+12/04/2024 11:23:27	Collecte des rôles
+12/04/2024 11:23:27	Collecte des rôles d'application
+12/04/2024 11:23:27	Collecte des appartenances aux rôles
+12/04/2024 11:23:27	Collecte des groupes de fichiers
+12/04/2024 11:23:27	Collecte des catalogues de recherche en texte intégral
+12/04/2024 11:23:27	Collecte des assemblys
+12/04/2024 11:23:27	Collecte des certificats
+12/04/2024 11:23:27	Collecte des clés asymétriques
+12/04/2024 11:23:27	Collecte des clés symétriques
+12/04/2024 11:23:27	Collecte des clés symétriques chiffrées
+12/04/2024 11:23:27	Collecte des schémas
+12/04/2024 11:23:27	Collecte des collections de schémas XML
+12/04/2024 11:23:27	Collecte des types de données définis par l'utilisateur
+12/04/2024 11:23:27	Collecte des types définis par l'utilisateur
+12/04/2024 11:23:27	Collecte des types de tables
+12/04/2024 11:23:27	Collecte des clés uniques des types de tables
+12/04/2024 11:23:27	Collecte des clés primaires pour les types de tables
+12/04/2024 11:23:28	Collecte d'index pour types de tables
+12/04/2024 11:23:28	Collecte des contraintes de validation pour les types de tables
+12/04/2024 11:23:28	Collecte des contraintes par défaut pour les types de tables
+12/04/2024 11:23:28	Collecte des fonctions de partition
+12/04/2024 11:23:28	Collecte des schémas de partition
+12/04/2024 11:23:28	Collecte des fonctions
+12/04/2024 11:23:28	Collecte de fonctions cryptées
+12/04/2024 11:23:28	Collecte des agrégats
+12/04/2024 11:23:28	Collecte des procédures
+12/04/2024 11:23:28	Collecte de procédures cryptées
+12/04/2024 11:23:28	Collecte des tables
+12/04/2024 11:23:28	Collecte des clés primaires
+12/04/2024 11:23:28	Collecte des contraintes uniques
+12/04/2024 11:23:28	Collecte des clés étrangères
+12/04/2024 11:23:28	Collecte des contraintes par défaut
+12/04/2024 11:23:28	Collecte des contraintes de validation
+12/04/2024 11:23:28	Collecte des vues
+12/04/2024 11:23:28	Collecte de vues cryptées
+12/04/2024 11:23:28	Collecte des index
+12/04/2024 11:23:28	Collecte des statistiques
+12/04/2024 11:23:28	Collecte des listes de mots vides d'index de recherche en texte intégral
+12/04/2024 11:23:28	Collecte des listes de propriétés de recherche
+12/04/2024 11:23:28	Collecte des propriétés de recherche
+12/04/2024 11:23:28	Collecte des index de recherche en texte intégral
+12/04/2024 11:23:28	Collecte des index de la banque de colonnes
+12/04/2024 11:23:28	Collecte des index spatiaux
+12/04/2024 11:23:28	Collecte des index XML
+12/04/2024 11:23:28	Collecte d'index XML sélectifs
+12/04/2024 11:23:28	Collecte de déclencheurs cryptés
+12/04/2024 11:23:28	Collecte des déclencheurs
+12/04/2024 11:23:28	Collecte des déclencheurs chiffrés et DDL CLR
+12/04/2024 11:23:28	Collecte des DDL triggers
+12/04/2024 11:23:28	Création de contraintes d'arête
+12/04/2024 11:23:28	Collecte des synonymes
+12/04/2024 11:23:28	Collecte des valeurs par défaut
+12/04/2024 11:23:28	Collecte des liaisons UDDT de contrainte de données
+12/04/2024 11:23:28	Collecte des règles
+12/04/2024 11:23:28	Collecte des liaisons UDDT de contrainte de données
+12/04/2024 11:23:28	Collecte des types de messages
+12/04/2024 11:23:28	Collecte des files d'attente
+12/04/2024 11:23:28	Collecte des contrats
+12/04/2024 11:23:28	Collecte des services
+12/04/2024 11:23:28	Collecte des notifications d'événements
+12/04/2024 11:23:28	Collecte des liaisons de service distant
+12/04/2024 11:23:28	Collecte des priorités de Service Broker
+12/04/2024 11:23:28	Collecte des signatures
+12/04/2024 11:23:28	Collection des options de compression de données
+12/04/2024 11:23:28	Collecte des types de séquences
+12/04/2024 11:23:28	Collecte des stratégies de sécurité
+12/04/2024 11:23:28	Collecter les clés de chiffrement de colonne
+12/04/2024 11:23:28	Collecte des clés principales de colonne
+12/04/2024 11:23:28	Collecte des sources de données externes
+12/04/2024 11:23:28	Collecte des formats de fichier externes
+12/04/2024 11:23:28	Collecte des tables externes
+12/04/2024 11:23:28	Collection des propriétés étendues
+12/04/2024 11:23:28	Collecte des assemblys
+12/04/2024 11:23:29	Collecte des informations d'identification
+12/04/2024 11:23:29	Collecte des connexions
+12/04/2024 11:23:29	Collecte des audits du serveur
+12/04/2024 11:23:30	Analyse du projet à la recherche des éléments en double
+12/04/2024 11:23:30	Fin du traitement des éléments en double
+12/04/2024 11:23:31	Importation de la base de données terminée.
+12/04/2024 11:23:31	Un résumé de l'opération d'importation a été enregistré à l'emplacement suivant : C:\Users\AMI.GROUP\Desktop\TEST ECONOCO\AirDolomieu\BDD-AirDolomieu\Importer les journaux de schémas\BDD-AirDolomieu_20240412092314.log.
+12/04/2024 11:23:31	Cliquez sur Terminer pour continuer...

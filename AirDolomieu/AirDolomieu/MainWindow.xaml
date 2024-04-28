@@ -1,0 +1,50 @@
+﻿<Window x:Class="AirDolomieu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AirDolomieu" xmlns:data="clr-namespace:AirDolomieu.Class"
+        mc:Ignorable="d"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="AirDolomieu" Height="718" Width="800">
+    <Grid Margin="0,0,0,1">
+        <DataGrid Name ="vol" Margin="308,29,10,257"/>
+        <Label Content="Nom Pilote" HorizontalAlignment="Left" Margin="70,122,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name ="ListPilote" 
+                  ItemsSource="{Binding _Pilote, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}"
+                  SelectedItem="{Binding _Pilote}"
+                  HorizontalAlignment="Left" Margin="70,153,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nompilote}"></TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+            <Label Content="Nom de l'avion" HorizontalAlignment="Left" Margin="70,209,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="ListAvion"
+                  ItemsSource="{Binding _Avion, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}"
+                  SelectedItem="{Binding _Avion}"
+                  HorizontalAlignment="Left" Margin="70,240,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nomavion}"></TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Click="CheckButton_Click" Name ="CheckVols" Content="Check Vols" HorizontalAlignment="Left" Margin="80,351,0,0" VerticalAlignment="Top" Width="100" Height="25"/>
+        <Button Click="ClearButton_Click" Name ="Clear" Content="Clear Results" HorizontalAlignment="Right" Margin="0,461,130,0" VerticalAlignment="Top" Width="99" Height="25"/>
+        <Label Content="Ajouter un vol pour le couple Pilote/Avion selectionné" HorizontalAlignment="Left" Margin="43,505,0,0" VerticalAlignment="Top" Width="318"/>
+        <TextBox Name="NewNumVol" HorizontalAlignment="Left" Margin="60,560,0,0" TextWrapping="Wrap" Text="NOU2" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="NewVilleDep" HorizontalAlignment="Left" Margin="210,560,0,0" TextWrapping="Wrap" Text="Paris" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="NewDateDep" HorizontalAlignment="Center" Margin="0,560,0,0" VerticalAlignment="Top" Text="05:00" Height="18" Width="80" RenderTransformOrigin="0.506,-2.553"/>
+        <TextBox Name ="NewVilleArr"  HorizontalAlignment="Left" Margin="528,560,0,0" TextWrapping="Wrap" Text="Londre" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="NewDateArr"  HorizontalAlignment="Left" Margin="670,560,0,0" VerticalAlignment="Top" Height="18" Width="80" Text="06:00"/>
+        <Button Click="AddVolButton_Click" Content="AJouter Vol" HorizontalAlignment="Left" Margin="60,609,0,0" VerticalAlignment="Top" Height="37" Width="120"/>
+        <Label Content="NumVol" HorizontalAlignment="Left" Margin="60,536,0,0" VerticalAlignment="Top"/>
+        <Label Content="VilleDep" HorizontalAlignment="Left" Margin="210,534,0,0" VerticalAlignment="Top"/>
+        <Label Content="HeureDep" HorizontalAlignment="Left" Margin="360,531,0,0" VerticalAlignment="Top"/>
+        <Label Content="VilleArr" HorizontalAlignment="Left" Margin="528,534,0,0" VerticalAlignment="Top"/>
+        <Label Content="HeureArr" HorizontalAlignment="Left" Margin="670,534,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
