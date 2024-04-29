@@ -1870,11 +1870,11 @@
   "project": {
     "version": "2.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj",
+      "projectUniqueName": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj",
       "projectName": "AirDolomieu",
-      "projectPath": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj",
+      "projectPath": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj",
       "packagesPath": "C:\\Users\\AMI.GROUP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\obj\\",
+      "outputPath": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AMI.GROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",

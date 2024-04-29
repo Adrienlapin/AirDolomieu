@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieuTests\\AirDolomieuTests.csproj": {}
+    "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieuTests\\AirDolomieuTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieuTests\\AirDolomieuTests.csproj": {
+    "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieuTests\\AirDolomieuTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieuTests\\AirDolomieuTests.csproj",
+        "projectUniqueName": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieuTests\\AirDolomieuTests.csproj",
         "projectName": "AirDolomieuTests",
-        "projectPath": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieuTests\\AirDolomieuTests.csproj",
+        "projectPath": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieuTests\\AirDolomieuTests.csproj",
         "packagesPath": "C:\\Users\\AMI.GROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieuTests\\obj\\",
+        "outputPath": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieuTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AMI.GROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj": {
-                "projectPath": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj"
+              "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj": {
+                "projectPath": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj": {
+    "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj": {
       "version": "2.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj",
+        "projectUniqueName": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj",
         "projectName": "AirDolomieu",
-        "projectPath": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj",
+        "projectPath": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\AirDolomieu.csproj",
         "packagesPath": "C:\\Users\\AMI.GROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AMI.GROUP\\Desktop\\TEST ECONOCO\\AirDolomieu\\AirDolomieu\\obj\\",
+        "outputPath": "C:\\Users\\AMI.GROUP\\Desktop\\GitHub Adrien\\AirDolomieu\\AirDolomieu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AMI.GROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -97,18 +97,25 @@ namespace AirDolomieu
             Newvol.Villearr = NewVilleArr.Text;
             Newvol.Heurearr = NewDateArr.Text;
 
-            string message = data.PutNewVol(Newvol, (Pilote)ListPilote.SelectedItem, (Avion)ListAvion.SelectedItem);
+            if (data.GetOneVol(Newvol) == null)
+            {
 
-            if (message == "OK")
+                string message = data.PutNewVol(Newvol, (Pilote)ListPilote.SelectedItem, (Avion)ListAvion.SelectedItem);
+
+                if (message == "OK")
+                {
+                    vol.ItemsSource = null;
+                    ListPilote.SelectedIndex = -1;
+                    ListAvion.SelectedIndex = -1;
+                    MessageBox.Show("Vol ajouté !");
+                }
+                else
+                {
+                    MessageBox.Show(message);
+                }
+            }else
             {
-                vol.ItemsSource = null;
-                ListPilote.SelectedIndex = -1;
-                ListAvion.SelectedIndex = -1;
-                MessageBox.Show("Vol ajouté !");
-            }
-            else
-            {
-                MessageBox.Show(message);
+                MessageBox.Show("Le vol " + Newvol.Numvol + " existe déja");
             }
         }
 

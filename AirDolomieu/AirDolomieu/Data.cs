@@ -127,8 +127,33 @@ namespace AirDolomieu
             return collection;
         }
 
-        
-        
+        public Vol GetOneVol(Vol fly)
+        {
+            using (AirDolomieuContext _context = new AirDolomieuContext())
+            {
+                var query =
+                from vol in _context.Vols
+                where vol.Numvol == fly.Numvol
+                select new Vol
+                {
+                    Numvol = vol.Numvol,
+                    Numavion = vol.Numavion,
+                    Numpilote = vol.Numpilote,
+                    Heuredep = vol.Heuredep,
+                    Villedep = vol.Villedep,
+                    Heurearr = vol.Heurearr,
+                    Villearr = vol.Villearr
+                };
+                if (query.ToList().Count == 0)
+                {
+                    return null;
+                } else
+                {
+                    return query.ToList()[0];
+                }
+            }
+        }
+
         //Ajouter un vol avec EntityFramework
         public String PutNewVol(Vol fly, Pilote P, Avion A)
         {
