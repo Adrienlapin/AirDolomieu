@@ -18,7 +18,6 @@ namespace AirDolomieu
         //Return list vol for Pilote selected
         public List<ViewVol> GetViewVolsbyPilote(Pilote P)
         {
-            List<ViewVol> list = new List<ViewVol>();
             using (AirDolomieuContext _context = new AirDolomieuContext())
             {
                 var query =
@@ -43,8 +42,7 @@ namespace AirDolomieu
 
         //Return List Vol for all plane selected
         public List<ViewVol> GetViewVolsbyAvion(Avion A)
-        {
-            List<ViewVol> list = new List<ViewVol>();
+        {            
             using (AirDolomieuContext _context = new AirDolomieuContext())
             {
                 var query =
@@ -69,7 +67,6 @@ namespace AirDolomieu
         //Return List Vol with plane and pilote selected
         public List<ViewVol> GetViewVolsbyAll(Pilote P, Avion A)
         {
-            List<ViewVol> list = new List<ViewVol>();
             using (AirDolomieuContext _context = new AirDolomieuContext())
             {
                 var query =
